@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDataTypes", "BasicData
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStrings", "FunWithStrings\FunWithStrings.csproj", "{D634359B-D17A-45D5-8C16-8B0831ADDFFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversions", "TypeConversions\TypeConversions.csproj", "{B2E8AE51-F556-432D-9E43-EA3C2B50FD67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{D634359B-D17A-45D5-8C16-8B0831ADDFFF}.Release|x64.Build.0 = Release|Any CPU
 		{D634359B-D17A-45D5-8C16-8B0831ADDFFF}.Release|x86.ActiveCfg = Release|Any CPU
 		{D634359B-D17A-45D5-8C16-8B0831ADDFFF}.Release|x86.Build.0 = Release|Any CPU
+		{B2E8AE51-F556-432D-9E43-EA3C2B50FD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E8AE51-F556-432D-9E43-EA3C2B50FD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E8AE51-F556-432D-9E43-EA3C2B50FD67}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B2E8AE51-F556-432D-9E43-EA3C2B50FD67}.Debug|x64.Build.0 = Debug|Any CPU
+		{B2E8AE51-F556-432D-9E43-EA3C2B50FD67}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B2E8AE51-F556-432D-9E43-EA3C2B50FD67}.Debug|x86.Build.0 = Debug|Any CPU
+		{B2E8AE51-F556-432D-9E43-EA3C2B50FD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E8AE51-F556-432D-9E43-EA3C2B50FD67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E8AE51-F556-432D-9E43-EA3C2B50FD67}.Release|x64.ActiveCfg = Release|Any CPU
+		{B2E8AE51-F556-432D-9E43-EA3C2B50FD67}.Release|x64.Build.0 = Release|Any CPU
+		{B2E8AE51-F556-432D-9E43-EA3C2B50FD67}.Release|x86.ActiveCfg = Release|Any CPU
+		{B2E8AE51-F556-432D-9E43-EA3C2B50FD67}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
