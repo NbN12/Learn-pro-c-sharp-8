@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversions", "TypeConv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitlyTypedLocalVars", "ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars.csproj", "{7942E9A4-F44A-4E77-8AC4-4CD25DF64329}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationsAndDecisions", "IterationsAndDecisions\IterationsAndDecisions.csproj", "{566CB0D5-22A9-4712-BEAB-CF20380EB073}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,5 +102,17 @@ Global
 		{7942E9A4-F44A-4E77-8AC4-4CD25DF64329}.Release|x64.Build.0 = Release|Any CPU
 		{7942E9A4-F44A-4E77-8AC4-4CD25DF64329}.Release|x86.ActiveCfg = Release|Any CPU
 		{7942E9A4-F44A-4E77-8AC4-4CD25DF64329}.Release|x86.Build.0 = Release|Any CPU
+		{566CB0D5-22A9-4712-BEAB-CF20380EB073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566CB0D5-22A9-4712-BEAB-CF20380EB073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566CB0D5-22A9-4712-BEAB-CF20380EB073}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{566CB0D5-22A9-4712-BEAB-CF20380EB073}.Debug|x64.Build.0 = Debug|Any CPU
+		{566CB0D5-22A9-4712-BEAB-CF20380EB073}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{566CB0D5-22A9-4712-BEAB-CF20380EB073}.Debug|x86.Build.0 = Debug|Any CPU
+		{566CB0D5-22A9-4712-BEAB-CF20380EB073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566CB0D5-22A9-4712-BEAB-CF20380EB073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566CB0D5-22A9-4712-BEAB-CF20380EB073}.Release|x64.ActiveCfg = Release|Any CPU
+		{566CB0D5-22A9-4712-BEAB-CF20380EB073}.Release|x64.Build.0 = Release|Any CPU
+		{566CB0D5-22A9-4712-BEAB-CF20380EB073}.Release|x86.ActiveCfg = Release|Any CPU
+		{566CB0D5-22A9-4712-BEAB-CF20380EB073}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
