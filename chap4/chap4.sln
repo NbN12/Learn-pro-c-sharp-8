@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithLocalFunctions", "Fu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithMethods", "FunWithMethods\FunWithMethods.csproj", "{DFD292E8-FD49-446B-A3B0-03E420EC10C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverloading", "MethodOverloading\MethodOverloading.csproj", "{28BD155E-CAC3-4CA6-9F59-7BDF2A98669D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{DFD292E8-FD49-446B-A3B0-03E420EC10C8}.Release|x64.Build.0 = Release|Any CPU
 		{DFD292E8-FD49-446B-A3B0-03E420EC10C8}.Release|x86.ActiveCfg = Release|Any CPU
 		{DFD292E8-FD49-446B-A3B0-03E420EC10C8}.Release|x86.Build.0 = Release|Any CPU
+		{28BD155E-CAC3-4CA6-9F59-7BDF2A98669D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BD155E-CAC3-4CA6-9F59-7BDF2A98669D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BD155E-CAC3-4CA6-9F59-7BDF2A98669D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{28BD155E-CAC3-4CA6-9F59-7BDF2A98669D}.Debug|x64.Build.0 = Debug|Any CPU
+		{28BD155E-CAC3-4CA6-9F59-7BDF2A98669D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{28BD155E-CAC3-4CA6-9F59-7BDF2A98669D}.Debug|x86.Build.0 = Debug|Any CPU
+		{28BD155E-CAC3-4CA6-9F59-7BDF2A98669D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BD155E-CAC3-4CA6-9F59-7BDF2A98669D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BD155E-CAC3-4CA6-9F59-7BDF2A98669D}.Release|x64.ActiveCfg = Release|Any CPU
+		{28BD155E-CAC3-4CA6-9F59-7BDF2A98669D}.Release|x64.Build.0 = Release|Any CPU
+		{28BD155E-CAC3-4CA6-9F59-7BDF2A98669D}.Release|x86.ActiveCfg = Release|Any CPU
+		{28BD155E-CAC3-4CA6-9F59-7BDF2A98669D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
