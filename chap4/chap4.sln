@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStructures", "FunWit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueAndReferenceTypes", "ValueAndReferenceTypes\ValueAndReferenceTypes.csproj", "{751B8D15-5F04-44D7-BFCB-8D86369A68F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefTypeValTypeParams", "RefTypeValTypeParams\RefTypeValTypeParams.csproj", "{791DCD13-8C59-488D-8FFF-10EBBC88B5C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,5 +102,17 @@ Global
 		{751B8D15-5F04-44D7-BFCB-8D86369A68F1}.Release|x64.Build.0 = Release|Any CPU
 		{751B8D15-5F04-44D7-BFCB-8D86369A68F1}.Release|x86.ActiveCfg = Release|Any CPU
 		{751B8D15-5F04-44D7-BFCB-8D86369A68F1}.Release|x86.Build.0 = Release|Any CPU
+		{791DCD13-8C59-488D-8FFF-10EBBC88B5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791DCD13-8C59-488D-8FFF-10EBBC88B5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791DCD13-8C59-488D-8FFF-10EBBC88B5C7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{791DCD13-8C59-488D-8FFF-10EBBC88B5C7}.Debug|x64.Build.0 = Debug|Any CPU
+		{791DCD13-8C59-488D-8FFF-10EBBC88B5C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{791DCD13-8C59-488D-8FFF-10EBBC88B5C7}.Debug|x86.Build.0 = Debug|Any CPU
+		{791DCD13-8C59-488D-8FFF-10EBBC88B5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791DCD13-8C59-488D-8FFF-10EBBC88B5C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791DCD13-8C59-488D-8FFF-10EBBC88B5C7}.Release|x64.ActiveCfg = Release|Any CPU
+		{791DCD13-8C59-488D-8FFF-10EBBC88B5C7}.Release|x64.Build.0 = Release|Any CPU
+		{791DCD13-8C59-488D-8FFF-10EBBC88B5C7}.Release|x86.ActiveCfg = Release|Any CPU
+		{791DCD13-8C59-488D-8FFF-10EBBC88B5C7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
