@@ -52,9 +52,35 @@ namespace NullableValueTypes
                 Console.WriteLine("Value of 'b' is undefined.");
             }
 
+            // If the value from GetIntFromDatabase() is null,
+            // assign local variable to 100
+            int myData = dr.GetIntFromDatabase() ?? 100;
+            Console.WriteLine("Value of myData: {0}", myData);
+
+            //Null-coalescing assignment operator
+            int? nullableInt = null;
+            nullableInt ??= 12;
+            nullableInt ??= 14;
+            Console.WriteLine(nullableInt);
+
 
 
             Console.ReadLine();
+        }
+
+        static void TesterMethodBefore(string[] args)
+        {
+            // We should check for null before accessing the array data!
+            if (args != null)
+            {
+                Console.WriteLine($"You sent me {args.Length} arguments.");
+            }
+        }
+
+        static void TesterMethod(string[] args)
+        {
+            // We should check for null before accessing the array data!
+            Console.WriteLine($"You sent me {args?.Length ?? 0} arguments.");
         }
 
 #pragma warning disable
