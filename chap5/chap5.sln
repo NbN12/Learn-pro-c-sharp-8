@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClassExample", "SimpleClassExample\SimpleClassExample.csproj", "{EC8E1965-553C-405D-923C-84D7E4B2B4C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticDataAndMembers", "StaticDataAndMembers\StaticDataAndMembers.csproj", "{1EAC236E-47F9-489B-8DD4-AFEA7489913B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{EC8E1965-553C-405D-923C-84D7E4B2B4C8}.Release|x64.Build.0 = Release|Any CPU
 		{EC8E1965-553C-405D-923C-84D7E4B2B4C8}.Release|x86.ActiveCfg = Release|Any CPU
 		{EC8E1965-553C-405D-923C-84D7E4B2B4C8}.Release|x86.Build.0 = Release|Any CPU
+		{1EAC236E-47F9-489B-8DD4-AFEA7489913B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAC236E-47F9-489B-8DD4-AFEA7489913B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAC236E-47F9-489B-8DD4-AFEA7489913B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1EAC236E-47F9-489B-8DD4-AFEA7489913B}.Debug|x64.Build.0 = Debug|Any CPU
+		{1EAC236E-47F9-489B-8DD4-AFEA7489913B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1EAC236E-47F9-489B-8DD4-AFEA7489913B}.Debug|x86.Build.0 = Debug|Any CPU
+		{1EAC236E-47F9-489B-8DD4-AFEA7489913B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAC236E-47F9-489B-8DD4-AFEA7489913B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EAC236E-47F9-489B-8DD4-AFEA7489913B}.Release|x64.ActiveCfg = Release|Any CPU
+		{1EAC236E-47F9-489B-8DD4-AFEA7489913B}.Release|x64.Build.0 = Release|Any CPU
+		{1EAC236E-47F9-489B-8DD4-AFEA7489913B}.Release|x86.ActiveCfg = Release|Any CPU
+		{1EAC236E-47F9-489B-8DD4-AFEA7489913B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
