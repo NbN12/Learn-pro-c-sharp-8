@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeApp", "EmployeeApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithAutomaticProperties", "FunWithAutomaticProperties\FunWithAutomaticProperties.csproj", "{470280F9-F738-456B-879F-CF8BD6F733A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializers", "ObjectInitializers\ObjectInitializers.csproj", "{FDDECBB7-F93B-44B6-BEE0-F2D5BF38EC29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{470280F9-F738-456B-879F-CF8BD6F733A1}.Release|x64.Build.0 = Release|Any CPU
 		{470280F9-F738-456B-879F-CF8BD6F733A1}.Release|x86.ActiveCfg = Release|Any CPU
 		{470280F9-F738-456B-879F-CF8BD6F733A1}.Release|x86.Build.0 = Release|Any CPU
+		{FDDECBB7-F93B-44B6-BEE0-F2D5BF38EC29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDECBB7-F93B-44B6-BEE0-F2D5BF38EC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDECBB7-F93B-44B6-BEE0-F2D5BF38EC29}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FDDECBB7-F93B-44B6-BEE0-F2D5BF38EC29}.Debug|x64.Build.0 = Debug|Any CPU
+		{FDDECBB7-F93B-44B6-BEE0-F2D5BF38EC29}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FDDECBB7-F93B-44B6-BEE0-F2D5BF38EC29}.Debug|x86.Build.0 = Debug|Any CPU
+		{FDDECBB7-F93B-44B6-BEE0-F2D5BF38EC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDECBB7-F93B-44B6-BEE0-F2D5BF38EC29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDDECBB7-F93B-44B6-BEE0-F2D5BF38EC29}.Release|x64.ActiveCfg = Release|Any CPU
+		{FDDECBB7-F93B-44B6-BEE0-F2D5BF38EC29}.Release|x64.Build.0 = Release|Any CPU
+		{FDDECBB7-F93B-44B6-BEE0-F2D5BF38EC29}.Release|x86.ActiveCfg = Release|Any CPU
+		{FDDECBB7-F93B-44B6-BEE0-F2D5BF38EC29}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
