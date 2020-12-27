@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleException", "SimpleException\SimpleException.csproj", "{675ED0CC-4BB7-4E89-B42F-425CE9DC6404}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomException", "CustomException\CustomException.csproj", "{868E29C8-23E7-4955-B3A1-1DE1B914F4B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{675ED0CC-4BB7-4E89-B42F-425CE9DC6404}.Release|x64.Build.0 = Release|Any CPU
 		{675ED0CC-4BB7-4E89-B42F-425CE9DC6404}.Release|x86.ActiveCfg = Release|Any CPU
 		{675ED0CC-4BB7-4E89-B42F-425CE9DC6404}.Release|x86.Build.0 = Release|Any CPU
+		{868E29C8-23E7-4955-B3A1-1DE1B914F4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868E29C8-23E7-4955-B3A1-1DE1B914F4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868E29C8-23E7-4955-B3A1-1DE1B914F4B0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{868E29C8-23E7-4955-B3A1-1DE1B914F4B0}.Debug|x64.Build.0 = Debug|Any CPU
+		{868E29C8-23E7-4955-B3A1-1DE1B914F4B0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{868E29C8-23E7-4955-B3A1-1DE1B914F4B0}.Debug|x86.Build.0 = Debug|Any CPU
+		{868E29C8-23E7-4955-B3A1-1DE1B914F4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868E29C8-23E7-4955-B3A1-1DE1B914F4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868E29C8-23E7-4955-B3A1-1DE1B914F4B0}.Release|x64.ActiveCfg = Release|Any CPU
+		{868E29C8-23E7-4955-B3A1-1DE1B914F4B0}.Release|x64.Build.0 = Release|Any CPU
+		{868E29C8-23E7-4955-B3A1-1DE1B914F4B0}.Release|x86.ActiveCfg = Release|Any CPU
+		{868E29C8-23E7-4955-B3A1-1DE1B914F4B0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
