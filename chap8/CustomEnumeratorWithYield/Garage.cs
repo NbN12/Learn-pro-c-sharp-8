@@ -20,12 +20,19 @@ namespace CustomEnumeratorWithYield
         // Return the array object's IEnumerator.
         public IEnumerator GetEnumerator()
         {
-            //This will not get thrown until MoveNext() is called
+            //This will get thrown immediately
             throw new Exception("This won't get called");
-            foreach (var car in carArray)
+            return ActualImplementation();
+
+            IEnumerator ActualImplementation()
             {
-                yield return car;
+                //this is the local function and the actual IEnumerator implementation
+                foreach (var car in carArray)
+                {
+                    yield return car;
+                }
             }
         }
+
     }
 }
