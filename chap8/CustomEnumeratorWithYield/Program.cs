@@ -9,15 +9,28 @@ namespace CustomEnumeratorWithYield
         {
             Console.WriteLine("***** Fun with the Yield Keyword *****\n");
             Garage carLot = new Garage();
-            try
+            // try
+            // {
+            //     //Error at this time
+            //     var carEnumerator = carLot.GetEnumerator();
+            // }
+            // catch (Exception e)
+            // {
+            //     Console.WriteLine($"Exception occurred on GetEnumerator");
+            // }
+
+            foreach (Car c in carLot)
             {
-                //Error at this time
-                var carEnumerator = carLot.GetEnumerator();
+                Console.WriteLine("{0} is going {1} MPH", c.PetName, c.CurrentSpeed);
             }
-            catch (Exception e)
+
+            Console.WriteLine();
+
+            foreach (Car c in carLot.GetTheCars(true))
             {
-                Console.WriteLine($"Exception occurred on GetEnumerator");
+                Console.WriteLine("{0} is going {1} MPH", c.PetName, c.CurrentSpeed);
             }
+
             Console.ReadLine();
         }
     }

@@ -17,11 +17,36 @@ namespace CustomEnumeratorWithYield
             carArray[3] = new Car("Fred", 30);
         }
 
+        public IEnumerable GetTheCars(bool returnReversed)
+        {
+            //do some error checking here
+            return ActualImplementation();
+
+            IEnumerable ActualImplementation()
+            {
+                if (returnReversed)
+                {
+                    for (int i = carArray.Length; i != 0; i--)
+                    {
+                        yield return carArray[i - 1];
+                    }
+                }
+                else
+                {
+                    // Return the items as placed in the array.
+                    foreach (Car c in carArray)
+                    {
+                        yield return c;
+                    }
+                }
+            }
+        }
+
         // Return the array object's IEnumerator.
         public IEnumerator GetEnumerator()
         {
             //This will get thrown immediately
-            throw new Exception("This won't get called");
+            // throw new Exception("This won't get called");
             return ActualImplementation();
 
             IEnumerator ActualImplementation()
