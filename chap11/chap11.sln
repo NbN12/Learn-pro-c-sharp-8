@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomConversions", "Custom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{C82027C6-36C6-4F60-8122-7F76FC8CCB3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExtensions", "InterfaceExtensions\InterfaceExtensions.csproj", "{847BF89A-6550-4D34-844A-939D83AEA00E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{C82027C6-36C6-4F60-8122-7F76FC8CCB3D}.Release|x64.Build.0 = Release|Any CPU
 		{C82027C6-36C6-4F60-8122-7F76FC8CCB3D}.Release|x86.ActiveCfg = Release|Any CPU
 		{C82027C6-36C6-4F60-8122-7F76FC8CCB3D}.Release|x86.Build.0 = Release|Any CPU
+		{847BF89A-6550-4D34-844A-939D83AEA00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847BF89A-6550-4D34-844A-939D83AEA00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847BF89A-6550-4D34-844A-939D83AEA00E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{847BF89A-6550-4D34-844A-939D83AEA00E}.Debug|x64.Build.0 = Debug|Any CPU
+		{847BF89A-6550-4D34-844A-939D83AEA00E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{847BF89A-6550-4D34-844A-939D83AEA00E}.Debug|x86.Build.0 = Debug|Any CPU
+		{847BF89A-6550-4D34-844A-939D83AEA00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847BF89A-6550-4D34-844A-939D83AEA00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847BF89A-6550-4D34-844A-939D83AEA00E}.Release|x64.ActiveCfg = Release|Any CPU
+		{847BF89A-6550-4D34-844A-939D83AEA00E}.Release|x64.Build.0 = Release|Any CPU
+		{847BF89A-6550-4D34-844A-939D83AEA00E}.Release|x86.ActiveCfg = Release|Any CPU
+		{847BF89A-6550-4D34-844A-939D83AEA00E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
