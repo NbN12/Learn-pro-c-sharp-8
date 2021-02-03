@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDelegate", "SimpleDel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDelegate", "CarDelegate\CarDelegate.csproj", "{069BF8C3-F94E-4EAD-92FA-42D929F76063}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDelegate", "GenericDelegate\GenericDelegate.csproj", "{BEE5F6BC-3DAB-4917-A26C-281B7CAC13AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{069BF8C3-F94E-4EAD-92FA-42D929F76063}.Release|x64.Build.0 = Release|Any CPU
 		{069BF8C3-F94E-4EAD-92FA-42D929F76063}.Release|x86.ActiveCfg = Release|Any CPU
 		{069BF8C3-F94E-4EAD-92FA-42D929F76063}.Release|x86.Build.0 = Release|Any CPU
+		{BEE5F6BC-3DAB-4917-A26C-281B7CAC13AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE5F6BC-3DAB-4917-A26C-281B7CAC13AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE5F6BC-3DAB-4917-A26C-281B7CAC13AE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BEE5F6BC-3DAB-4917-A26C-281B7CAC13AE}.Debug|x64.Build.0 = Debug|Any CPU
+		{BEE5F6BC-3DAB-4917-A26C-281B7CAC13AE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BEE5F6BC-3DAB-4917-A26C-281B7CAC13AE}.Debug|x86.Build.0 = Debug|Any CPU
+		{BEE5F6BC-3DAB-4917-A26C-281B7CAC13AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE5F6BC-3DAB-4917-A26C-281B7CAC13AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE5F6BC-3DAB-4917-A26C-281B7CAC13AE}.Release|x64.ActiveCfg = Release|Any CPU
+		{BEE5F6BC-3DAB-4917-A26C-281B7CAC13AE}.Release|x64.Build.0 = Release|Any CPU
+		{BEE5F6BC-3DAB-4917-A26C-281B7CAC13AE}.Release|x86.ActiveCfg = Release|Any CPU
+		{BEE5F6BC-3DAB-4917-A26C-281B7CAC13AE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
