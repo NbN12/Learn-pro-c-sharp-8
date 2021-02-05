@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionAndFuncDelegates", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarEvents", "CarEvents\CarEvents.csproj", "{4C045A10-E603-4993-86CC-AAAB62D4A09A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethods", "AnonymousMethods\AnonymousMethods.csproj", "{35B961D7-4E34-43C1-8956-AB8F2147D580}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,5 +88,17 @@ Global
 		{4C045A10-E603-4993-86CC-AAAB62D4A09A}.Release|x64.Build.0 = Release|Any CPU
 		{4C045A10-E603-4993-86CC-AAAB62D4A09A}.Release|x86.ActiveCfg = Release|Any CPU
 		{4C045A10-E603-4993-86CC-AAAB62D4A09A}.Release|x86.Build.0 = Release|Any CPU
+		{35B961D7-4E34-43C1-8956-AB8F2147D580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B961D7-4E34-43C1-8956-AB8F2147D580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B961D7-4E34-43C1-8956-AB8F2147D580}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{35B961D7-4E34-43C1-8956-AB8F2147D580}.Debug|x64.Build.0 = Debug|Any CPU
+		{35B961D7-4E34-43C1-8956-AB8F2147D580}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{35B961D7-4E34-43C1-8956-AB8F2147D580}.Debug|x86.Build.0 = Debug|Any CPU
+		{35B961D7-4E34-43C1-8956-AB8F2147D580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B961D7-4E34-43C1-8956-AB8F2147D580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B961D7-4E34-43C1-8956-AB8F2147D580}.Release|x64.ActiveCfg = Release|Any CPU
+		{35B961D7-4E34-43C1-8956-AB8F2147D580}.Release|x64.Build.0 = Release|Any CPU
+		{35B961D7-4E34-43C1-8956-AB8F2147D580}.Release|x86.ActiveCfg = Release|Any CPU
+		{35B961D7-4E34-43C1-8956-AB8F2147D580}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
