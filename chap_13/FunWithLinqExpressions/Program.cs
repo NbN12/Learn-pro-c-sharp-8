@@ -20,26 +20,105 @@ namespace FunWithLinqExpressions
                 new ProductInfo{ Name = "Classic Valpo Pizza", Description = "Everyone loves pizza!", NumberInStock = 73}
             };
 
-            SelectEverything(itemsInStock);
-            ListProductNames(itemsInStock);
-            GetNamesAndDescriptions(itemsInStock);
-            GetOverstock(itemsInStock);
+            // SelectEverything(itemsInStock);
+            // ListProductNames(itemsInStock);
+            // GetNamesAndDescriptions(itemsInStock);
+            // GetOverstock(itemsInStock);
 
-            Array objs = GetProjectedSubset(itemsInStock);
-            foreach (object o in objs)
-            {
-                Console.WriteLine(o); // Calls ToString() on each anonymous object.
-            }
-            Console.WriteLine();
+            // Array objs = GetProjectedSubset(itemsInStock);
+            // foreach (object o in objs)
+            // {
+            //     Console.WriteLine(o); // Calls ToString() on each anonymous object.
+            // }
+            // Console.WriteLine();
 
-            GetNamesAndDescriptionsTyped(itemsInStock);
+            // GetNamesAndDescriptionsTyped(itemsInStock);
 
-            GetCountFromQuery();
+            // GetCountFromQuery();
 
-            ReverseEverything(itemsInStock);
-            AlphabetizeProductNames(itemsInStock);
+            // ReverseEverything(itemsInStock);
+            // AlphabetizeProductNames(itemsInStock);
+
+            // DisplayDiff();
+            // DisplayUnion();
+            // DisplayConcat();
+            // DisplayConcatNoDups();
+            AggregateOps();
 
             Console.ReadLine();
+        }
+
+        static void AggregateOps()
+        {
+            double[] winterTemps = { 2.0, -21.3, 8, -4, 0, 8.2 };
+
+            // Various aggregation examples.
+            Console.WriteLine("Max temp: {0}", (from t in winterTemps select t).Max());
+
+            Console.WriteLine("Min temp: {0}", (from t in winterTemps select t).Min());
+
+            Console.WriteLine("Average temp: {0}", (from t in winterTemps select t).Average());
+
+            Console.WriteLine("Sum temp: {0}", (from t in winterTemps select t).Sum());
+        }
+
+        static void DisplayConcatNoDups()
+        {
+            List<string> myCars = new List<String> { "Yugo", "Aztec", "BMW" };
+            List<string> yourCars = new List<String> { "BMW", "Saab", "Aztec" };
+
+            var carConcat = (from c in myCars select c).Concat(from c2 in yourCars select c2);
+
+            // Prints:
+            // Yugo Aztec BMW BMW Saab Aztec.
+            foreach (string s in carConcat.Distinct())
+            {
+                Console.WriteLine(s);
+            }
+        }
+
+        static void DisplayConcat()
+        {
+            List<string> myCars = new List<String> { "Yugo", "Aztec", "BMW" };
+            List<string> yourCars = new List<String> { "BMW", "Saab", "Aztec" };
+
+            var carConcat = (from c in myCars select c).Concat(from c2 in yourCars select c2);
+
+            // Prints:
+            // Yugo Aztec BMW BMW Saab Aztec.
+            foreach (string s in carConcat)
+            {
+                Console.WriteLine(s);
+            }
+        }
+
+        static void DisplayUnion()
+        {
+            List<string> myCars = new List<String> { "Yugo", "Aztec", "BMW" };
+            List<string> yourCars = new List<String> { "BMW", "Saab", "Aztec" };
+
+            var carUnion = (from c in myCars select c).Union(from c2 in yourCars select c2);
+
+            Console.WriteLine("Here is everything:");
+            foreach (string s in carUnion)
+            {
+                Console.WriteLine(s); // Prints all common members.
+            }
+
+        }
+
+        static void DisplayDiff()
+        {
+            List<string> myCars = new List<String> { "Yugo", "Aztec", "BMW" };
+            List<string> yourCars = new List<String> { "BMW", "Saab", "Aztec" };
+
+            var carDiff = (from c in myCars select c).Except(from c2 in yourCars select c2);
+
+            Console.WriteLine("Here is what you don't have, but I do:");
+            foreach (string s in carDiff)
+            {
+                Console.WriteLine(s); // Prints Yugo.
+            }
         }
 
         static void AlphabetizeProductNames(ProductInfo[] products)
