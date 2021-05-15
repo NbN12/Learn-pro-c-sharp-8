@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadStats", "ThreadStats\ThreadStats.csproj", "{75475D96-7980-441C-AF11-978E1C741981}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMultiThreadApp", "SimpleMultiThreadApp\SimpleMultiThreadApp.csproj", "{9BE44DD0-B564-4BC4-B803-0F45F07D9257}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{75475D96-7980-441C-AF11-978E1C741981}.Release|x64.Build.0 = Release|Any CPU
 		{75475D96-7980-441C-AF11-978E1C741981}.Release|x86.ActiveCfg = Release|Any CPU
 		{75475D96-7980-441C-AF11-978E1C741981}.Release|x86.Build.0 = Release|Any CPU
+		{9BE44DD0-B564-4BC4-B803-0F45F07D9257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE44DD0-B564-4BC4-B803-0F45F07D9257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE44DD0-B564-4BC4-B803-0F45F07D9257}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9BE44DD0-B564-4BC4-B803-0F45F07D9257}.Debug|x64.Build.0 = Debug|Any CPU
+		{9BE44DD0-B564-4BC4-B803-0F45F07D9257}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9BE44DD0-B564-4BC4-B803-0F45F07D9257}.Debug|x86.Build.0 = Debug|Any CPU
+		{9BE44DD0-B564-4BC4-B803-0F45F07D9257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE44DD0-B564-4BC4-B803-0F45F07D9257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE44DD0-B564-4BC4-B803-0F45F07D9257}.Release|x64.ActiveCfg = Release|Any CPU
+		{9BE44DD0-B564-4BC4-B803-0F45F07D9257}.Release|x64.Build.0 = Release|Any CPU
+		{9BE44DD0-B564-4BC4-B803-0F45F07D9257}.Release|x86.ActiveCfg = Release|Any CPU
+		{9BE44DD0-B564-4BC4-B803-0F45F07D9257}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
