@@ -10,7 +10,27 @@ namespace MultiThreadedPrinting
         public void PrintNumbers()
         {
             // Use the private object lock token.
-            lock (threadLock)
+            // lock (threadLock)
+            // {
+            //     // Display Thread info.
+            //     Console.WriteLine("-> {0} is executing PrintNumbers()",
+            //     Thread.CurrentThread.Name);
+
+            //     // Print out numbers.
+            //     Console.Write("Your numbers: ");
+
+            //     for (var i = 0; i < 10; i++)
+            //     {
+            //         Random r = new Random();
+            //         Thread.Sleep(1000 * r.Next(5));
+            //         Console.Write($"{i}, ");
+            //     }
+
+            //     Console.WriteLine();
+            // }
+
+            Monitor.Enter(threadLock);
+            try
             {
                 // Display Thread info.
                 Console.WriteLine("-> {0} is executing PrintNumbers()",
@@ -27,6 +47,10 @@ namespace MultiThreadedPrinting
                 }
 
                 Console.WriteLine();
+            }
+            finally
+            {
+                Monitor.Exit(threadLock);
             }
         }
     }
