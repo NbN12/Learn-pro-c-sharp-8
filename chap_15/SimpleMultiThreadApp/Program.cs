@@ -41,6 +41,12 @@ namespace SimpleMultiThreadApp
             Console.WriteLine("This is on the main thread, and we are finished.");
             Console.ReadLine();
 
+            Console.WriteLine("***** Background Threads *****\n");
+            Thread bgroundThread = new Thread(new ThreadStart(p.PrintNumbers));
+            // Turn foreground thread to background thread
+            bgroundThread.IsBackground = true;
+            bgroundThread.Start();
+
         }
     }
 }
