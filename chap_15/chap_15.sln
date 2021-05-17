@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddWithThreads", "AddWithTh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadedPrinting", "MultiThreadedPrinting\MultiThreadedPrinting.csproj", "{8314AA27-7D53-47B5-B62C-60C5B2D43A72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerApp", "TimerApp\TimerApp.csproj", "{569B8119-6CDC-4A5F-B821-26D1B58B40EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{8314AA27-7D53-47B5-B62C-60C5B2D43A72}.Release|x64.Build.0 = Release|Any CPU
 		{8314AA27-7D53-47B5-B62C-60C5B2D43A72}.Release|x86.ActiveCfg = Release|Any CPU
 		{8314AA27-7D53-47B5-B62C-60C5B2D43A72}.Release|x86.Build.0 = Release|Any CPU
+		{569B8119-6CDC-4A5F-B821-26D1B58B40EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569B8119-6CDC-4A5F-B821-26D1B58B40EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569B8119-6CDC-4A5F-B821-26D1B58B40EA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{569B8119-6CDC-4A5F-B821-26D1B58B40EA}.Debug|x64.Build.0 = Debug|Any CPU
+		{569B8119-6CDC-4A5F-B821-26D1B58B40EA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{569B8119-6CDC-4A5F-B821-26D1B58B40EA}.Debug|x86.Build.0 = Debug|Any CPU
+		{569B8119-6CDC-4A5F-B821-26D1B58B40EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569B8119-6CDC-4A5F-B821-26D1B58B40EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569B8119-6CDC-4A5F-B821-26D1B58B40EA}.Release|x64.ActiveCfg = Release|Any CPU
+		{569B8119-6CDC-4A5F-B821-26D1B58B40EA}.Release|x64.Build.0 = Release|Any CPU
+		{569B8119-6CDC-4A5F-B821-26D1B58B40EA}.Release|x86.ActiveCfg = Release|Any CPU
+		{569B8119-6CDC-4A5F-B821-26D1B58B40EA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
