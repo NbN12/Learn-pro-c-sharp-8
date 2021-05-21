@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
@@ -18,14 +19,28 @@ namespace FunWithCSharpAsync
 
             // await MultipleAwaits();
 
-            await MultipleAwaits1();
+            // await MultipleAwaits1();
 
-            Console.WriteLine("Completed");
+            // Console.WriteLine("Completed");
 
             // await MethodReturningVoidAsync();
             // Console.WriteLine("Void method complete");
 
+            await foreach (var number in GenerateSequence())
+            {
+                Console.WriteLine(number);
+            }
+
             Console.ReadLine();
+        }
+
+        static async IAsyncEnumerable<int> GenerateSequence()
+        {
+            for (int i = 0; i < 20; i++)
+            {
+                await Task.Delay(100);
+                yield return i;
+            }
         }
 
         static async Task MethodWithProblemsFixed(int firstParam, int secondParam)
