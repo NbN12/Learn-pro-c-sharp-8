@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLINQDataProcessingWithCanc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithCSharpAsync", "FunWithCSharpAsync\FunWithCSharpAsync.csproj", "{7D1D8B2F-06E3-42CA-8E1D-AEA70C6ED566}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureHandlerWithAsyncAwait", "PictureHandlerWithAsyncAwait\PictureHandlerWithAsyncAwait.csproj", "{D2D58CE4-9F0C-47CB-9051-120A0D3D668D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -156,5 +158,17 @@ Global
 		{7D1D8B2F-06E3-42CA-8E1D-AEA70C6ED566}.Release|x64.Build.0 = Release|Any CPU
 		{7D1D8B2F-06E3-42CA-8E1D-AEA70C6ED566}.Release|x86.ActiveCfg = Release|Any CPU
 		{7D1D8B2F-06E3-42CA-8E1D-AEA70C6ED566}.Release|x86.Build.0 = Release|Any CPU
+		{D2D58CE4-9F0C-47CB-9051-120A0D3D668D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D58CE4-9F0C-47CB-9051-120A0D3D668D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D58CE4-9F0C-47CB-9051-120A0D3D668D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D2D58CE4-9F0C-47CB-9051-120A0D3D668D}.Debug|x64.Build.0 = Debug|Any CPU
+		{D2D58CE4-9F0C-47CB-9051-120A0D3D668D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D2D58CE4-9F0C-47CB-9051-120A0D3D668D}.Debug|x86.Build.0 = Debug|Any CPU
+		{D2D58CE4-9F0C-47CB-9051-120A0D3D668D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D58CE4-9F0C-47CB-9051-120A0D3D668D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D58CE4-9F0C-47CB-9051-120A0D3D668D}.Release|x64.ActiveCfg = Release|Any CPU
+		{D2D58CE4-9F0C-47CB-9051-120A0D3D668D}.Release|x64.Build.0 = Release|Any CPU
+		{D2D58CE4-9F0C-47CB-9051-120A0D3D668D}.Release|x86.ActiveCfg = Release|Any CPU
+		{D2D58CE4-9F0C-47CB-9051-120A0D3D668D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
