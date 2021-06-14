@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomNamespaces", "CustomNamespaces\CustomNamespaces.csproj", "{24DF1B2D-D921-4BBD-9D2E-282048E268ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithConfiguration", "FunWithConfiguration\FunWithConfiguration.csproj", "{EC0522DB-A3C7-42A8-9DD0-DA381BF2E5B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{24DF1B2D-D921-4BBD-9D2E-282048E268ED}.Release|x64.Build.0 = Release|Any CPU
 		{24DF1B2D-D921-4BBD-9D2E-282048E268ED}.Release|x86.ActiveCfg = Release|Any CPU
 		{24DF1B2D-D921-4BBD-9D2E-282048E268ED}.Release|x86.Build.0 = Release|Any CPU
+		{EC0522DB-A3C7-42A8-9DD0-DA381BF2E5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0522DB-A3C7-42A8-9DD0-DA381BF2E5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0522DB-A3C7-42A8-9DD0-DA381BF2E5B8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EC0522DB-A3C7-42A8-9DD0-DA381BF2E5B8}.Debug|x64.Build.0 = Debug|Any CPU
+		{EC0522DB-A3C7-42A8-9DD0-DA381BF2E5B8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EC0522DB-A3C7-42A8-9DD0-DA381BF2E5B8}.Debug|x86.Build.0 = Debug|Any CPU
+		{EC0522DB-A3C7-42A8-9DD0-DA381BF2E5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0522DB-A3C7-42A8-9DD0-DA381BF2E5B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC0522DB-A3C7-42A8-9DD0-DA381BF2E5B8}.Release|x64.ActiveCfg = Release|Any CPU
+		{EC0522DB-A3C7-42A8-9DD0-DA381BF2E5B8}.Release|x64.Build.0 = Release|Any CPU
+		{EC0522DB-A3C7-42A8-9DD0-DA381BF2E5B8}.Release|x86.ActiveCfg = Release|Any CPU
+		{EC0522DB-A3C7-42A8-9DD0-DA381BF2E5B8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
