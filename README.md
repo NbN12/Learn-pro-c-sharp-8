@@ -11,7 +11,7 @@
 > Contains all exercises from books
 
 ## Prerequisites
-* [dotnet core sdk(runtime) 5.0](https://dotnet.microsoft.com/download)
+* [dotnet core sdk(runtime) 3.1 or 5.0](https://dotnet.microsoft.com/download)
 
 ## Run project
 1. Go to project folder
