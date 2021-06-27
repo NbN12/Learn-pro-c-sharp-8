@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithConfiguration", "Fun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithProbingPaths", "FunWithProbingPaths\FunWithProbingPaths.csproj", "{88E8B696-882D-40B3-97B1-DA48D9301096}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTypeViewer", "MyTypeViewer\MyTypeViewer.csproj", "{AF80D0B7-4F42-49BB-A8A5-EE7293241BDE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,17 +58,5 @@ Global
 		{88E8B696-882D-40B3-97B1-DA48D9301096}.Release|x64.Build.0 = Release|Any CPU
 		{88E8B696-882D-40B3-97B1-DA48D9301096}.Release|x86.ActiveCfg = Release|Any CPU
 		{88E8B696-882D-40B3-97B1-DA48D9301096}.Release|x86.Build.0 = Release|Any CPU
-		{AF80D0B7-4F42-49BB-A8A5-EE7293241BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF80D0B7-4F42-49BB-A8A5-EE7293241BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF80D0B7-4F42-49BB-A8A5-EE7293241BDE}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{AF80D0B7-4F42-49BB-A8A5-EE7293241BDE}.Debug|x64.Build.0 = Debug|Any CPU
-		{AF80D0B7-4F42-49BB-A8A5-EE7293241BDE}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{AF80D0B7-4F42-49BB-A8A5-EE7293241BDE}.Debug|x86.Build.0 = Debug|Any CPU
-		{AF80D0B7-4F42-49BB-A8A5-EE7293241BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF80D0B7-4F42-49BB-A8A5-EE7293241BDE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AF80D0B7-4F42-49BB-A8A5-EE7293241BDE}.Release|x64.ActiveCfg = Release|Any CPU
-		{AF80D0B7-4F42-49BB-A8A5-EE7293241BDE}.Release|x64.Build.0 = Release|Any CPU
-		{AF80D0B7-4F42-49BB-A8A5-EE7293241BDE}.Release|x86.ActiveCfg = Release|Any CPU
-		{AF80D0B7-4F42-49BB-A8A5-EE7293241BDE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
