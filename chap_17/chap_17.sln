@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTypeViewer", "MyTypeViewe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalAssemblyReflector", "ExternalAssemblyReflector\ExternalAssemblyReflector.csproj", "{B6BB1418-6D49-4FC6-B8CB-6B88E817DA1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkAssemblyViewer", "FrameworkAssemblyViewer\FrameworkAssemblyViewer.csproj", "{C9FE230C-B337-45FB-BF2B-0F5498722CC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{B6BB1418-6D49-4FC6-B8CB-6B88E817DA1F}.Release|x64.Build.0 = Release|Any CPU
 		{B6BB1418-6D49-4FC6-B8CB-6B88E817DA1F}.Release|x86.ActiveCfg = Release|Any CPU
 		{B6BB1418-6D49-4FC6-B8CB-6B88E817DA1F}.Release|x86.Build.0 = Release|Any CPU
+		{C9FE230C-B337-45FB-BF2B-0F5498722CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9FE230C-B337-45FB-BF2B-0F5498722CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9FE230C-B337-45FB-BF2B-0F5498722CC1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C9FE230C-B337-45FB-BF2B-0F5498722CC1}.Debug|x64.Build.0 = Debug|Any CPU
+		{C9FE230C-B337-45FB-BF2B-0F5498722CC1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C9FE230C-B337-45FB-BF2B-0F5498722CC1}.Debug|x86.Build.0 = Debug|Any CPU
+		{C9FE230C-B337-45FB-BF2B-0F5498722CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9FE230C-B337-45FB-BF2B-0F5498722CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9FE230C-B337-45FB-BF2B-0F5498722CC1}.Release|x64.ActiveCfg = Release|Any CPU
+		{C9FE230C-B337-45FB-BF2B-0F5498722CC1}.Release|x64.Build.0 = Release|Any CPU
+		{C9FE230C-B337-45FB-BF2B-0F5498722CC1}.Release|x86.ActiveCfg = Release|Any CPU
+		{C9FE230C-B337-45FB-BF2B-0F5498722CC1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
