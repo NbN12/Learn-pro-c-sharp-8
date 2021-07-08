@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Philip Japikse</Authors>
+    <Description>This is a sample car library</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+      <_Parameter1>CSharpCarClient</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+</Project>

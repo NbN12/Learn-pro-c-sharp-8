@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LateBindingApp", "LateBindi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplyingAttributes", "ApplyingAttributes\ApplyingAttributes.csproj", "{4F2AD702-E93C-4189-AF99-B00B9D77786E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributedCarLibrary", "AttributedCarLibrary\AttributedCarLibrary.csproj", "{62478432-0627-472D-BBCF-BD85E073849A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,5 +88,17 @@ Global
 		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Release|x64.Build.0 = Release|Any CPU
 		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Release|x86.ActiveCfg = Release|Any CPU
 		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Release|x86.Build.0 = Release|Any CPU
+		{62478432-0627-472D-BBCF-BD85E073849A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62478432-0627-472D-BBCF-BD85E073849A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62478432-0627-472D-BBCF-BD85E073849A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{62478432-0627-472D-BBCF-BD85E073849A}.Debug|x64.Build.0 = Debug|Any CPU
+		{62478432-0627-472D-BBCF-BD85E073849A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{62478432-0627-472D-BBCF-BD85E073849A}.Debug|x86.Build.0 = Debug|Any CPU
+		{62478432-0627-472D-BBCF-BD85E073849A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62478432-0627-472D-BBCF-BD85E073849A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62478432-0627-472D-BBCF-BD85E073849A}.Release|x64.ActiveCfg = Release|Any CPU
+		{62478432-0627-472D-BBCF-BD85E073849A}.Release|x64.Build.0 = Release|Any CPU
+		{62478432-0627-472D-BBCF-BD85E073849A}.Release|x86.ActiveCfg = Release|Any CPU
+		{62478432-0627-472D-BBCF-BD85E073849A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
