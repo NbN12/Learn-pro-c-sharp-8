@@ -10,5 +10,10 @@ namespace CarLibrary
         {
             Console.WriteLine("Ramming speed! Faster is better...");
         }
+
+        public void TurnOnRadio(bool musicOn, MusicMedia mm)
+        {
+            Console.WriteLine(musicOn ? $"Jamming {mm}" : "Quiet time...");
+        }
     }
 }
