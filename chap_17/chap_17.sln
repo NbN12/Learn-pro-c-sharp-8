@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkAssemblyViewer", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LateBindingApp", "LateBindingApp\LateBindingApp.csproj", "{43E91755-59B7-4E64-A083-A18DBBA602F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplyingAttributes", "ApplyingAttributes\ApplyingAttributes.csproj", "{4F2AD702-E93C-4189-AF99-B00B9D77786E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{43E91755-59B7-4E64-A083-A18DBBA602F9}.Release|x64.Build.0 = Release|Any CPU
 		{43E91755-59B7-4E64-A083-A18DBBA602F9}.Release|x86.ActiveCfg = Release|Any CPU
 		{43E91755-59B7-4E64-A083-A18DBBA602F9}.Release|x86.Build.0 = Release|Any CPU
+		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Debug|x64.Build.0 = Debug|Any CPU
+		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Debug|x86.Build.0 = Debug|Any CPU
+		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Release|x64.ActiveCfg = Release|Any CPU
+		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Release|x64.Build.0 = Release|Any CPU
+		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Release|x86.ActiveCfg = Release|Any CPU
+		{4F2AD702-E93C-4189-AF99-B00B9D77786E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
