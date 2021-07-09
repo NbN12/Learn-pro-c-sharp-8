@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplyingAttributes", "Apply
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributedCarLibrary", "AttributedCarLibrary\AttributedCarLibrary.csproj", "{62478432-0627-472D-BBCF-BD85E073849A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleDescriptionAttributeReader", "VehicleDescriptionAttributeReader\VehicleDescriptionAttributeReader.csproj", "{7DAAFCBE-3C66-4568-9F39-BA8C547A7D1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,5 +102,17 @@ Global
 		{62478432-0627-472D-BBCF-BD85E073849A}.Release|x64.Build.0 = Release|Any CPU
 		{62478432-0627-472D-BBCF-BD85E073849A}.Release|x86.ActiveCfg = Release|Any CPU
 		{62478432-0627-472D-BBCF-BD85E073849A}.Release|x86.Build.0 = Release|Any CPU
+		{7DAAFCBE-3C66-4568-9F39-BA8C547A7D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAAFCBE-3C66-4568-9F39-BA8C547A7D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAAFCBE-3C66-4568-9F39-BA8C547A7D1A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7DAAFCBE-3C66-4568-9F39-BA8C547A7D1A}.Debug|x64.Build.0 = Debug|Any CPU
+		{7DAAFCBE-3C66-4568-9F39-BA8C547A7D1A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7DAAFCBE-3C66-4568-9F39-BA8C547A7D1A}.Debug|x86.Build.0 = Debug|Any CPU
+		{7DAAFCBE-3C66-4568-9F39-BA8C547A7D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAAFCBE-3C66-4568-9F39-BA8C547A7D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DAAFCBE-3C66-4568-9F39-BA8C547A7D1A}.Release|x64.ActiveCfg = Release|Any CPU
+		{7DAAFCBE-3C66-4568-9F39-BA8C547A7D1A}.Release|x64.Build.0 = Release|Any CPU
+		{7DAAFCBE-3C66-4568-9F39-BA8C547A7D1A}.Release|x86.ActiveCfg = Release|Any CPU
+		{7DAAFCBE-3C66-4568-9F39-BA8C547A7D1A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
